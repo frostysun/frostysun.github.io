@@ -7,7 +7,12 @@
 - (void)registerUser:(BriteHealthUser *)user succuess:(void ( ^ ) ( id response ))success failure:(void ( ^ ) ( NSError *error ))failure
 ```
 
-# android
-## Android
+# Android
+## Quickstart
+
+```java
+getSupportAnalyticsFragment(BriteHealthSdk.AnalyticsType analyticsType)
+```
+
 
 Change
